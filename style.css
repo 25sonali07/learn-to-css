@@ -1,0 +1,19 @@
+ /* external  css */
+ #sec_para{color: aqua;background-color: blueviolet;}
+ p1{color: aqua;background-color: blueviolet;} 
+ /* using class */
+ .main_class{color: brown; background-color: cyan;}
+ .back-color{background-color: silver;}
+ a:link{
+     color: tomato;
+ }
+ a:visited{
+     color: firebrick;
+ }
+
+a:hover{
+    color: forestgreen;
+}
+a:active{
+    color: gold;
+}

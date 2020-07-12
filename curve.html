@@ -1,0 +1,35 @@
+<html>
+    <head><title>canvas</title>
+    </head>
+    <body>
+        <canvas id="canvas1" style="width: 200px; height: 200px; border: 2px solid black;"></canvas>
+
+        <canvas id="canvas2" style="width: 200px; height: 200px; border: 2px solid black;"></canvas>
+
+        <canvas id="canvas3" style="width: 200px; height: 200px; border: 2px solid black;"></canvas>
+        <script>
+            
+            c1=document.getElementById('canvas1');
+            c1_x=c1.getContext('2d');
+            c1_x.fillStyle='orange';
+            c1_x.fillRect(100,30,100,200);
+            //c1_x.fillRect(top,left,width,height)
+
+            // Drawing the line
+            c2=document.getElementById('canvas2');
+            c2_x=c2.getContext('2d');
+            // c2_x.beginpath();
+            // c2_x moveTo(left,top)
+            c2_x.moveTo(100,0);
+            c2_x.lineTo(150,150)
+            c2_x.lineWidth= 10;
+            c2_x.strokeStyle='red';
+            c2_x.lineCap='round';
+            c2_x.stroke();
+
+            // Drawing the circle
+            c3=document.getElementById('canvas3');
+    
+        </script>
+    </body>
+</html>
